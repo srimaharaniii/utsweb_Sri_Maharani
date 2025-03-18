@@ -13,12 +13,16 @@
         <div class="row">
             <div claSS="col-sm-6 mb-3 mb-sm-0">
 
-    <div class="d-flex flex-column p-3 bg-primary-subtle" style="width: 250px; height: 100vh;">
-        <h5 class="text-dark text-center">Menu</h5>
+    <div class="d-flex flex-column p-3 bg-primary-subtle" style="width: 220px; height: 100vh;">
         <ul class="nav nav-pills flex-column">
             <li class="nav-item d-flex justify-content-center">
                 <a href="#" class="nav-link text-dark">
                     <img src="{{ asset ('/image/profil.png')}}" class="img-thumbnail img-fluid" style="width: 100px; height: 100px;" alt="">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ url('/menu') }}"  class="nav-link text-dark">
+                    <img src="{{ asset ('/image/price.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Menu
                 </a>
             </li>
             <li class="nav-item">
@@ -32,7 +36,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link text-dark">
+                <a href="{{ url('/penyerahan') }}" class="nav-link text-dark">
                     <img src="{{ asset ('/image/penyerahan.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Penyerahan
                 </a>
             </li>
@@ -42,50 +46,76 @@
     </div>
 
     <div class="container position-absolute top-0 end-0">
-        <main class="col-md-10 ml-sm-auto px-4">
+        <main class="col-md-12 ml-sm-auto px-auto">
 
-            <div class="row mt-0" >
-                <div class="bg-secondary">
-                    <h2 class="mt-5 ">Selamat Datang di Aplikasi Pengelolaan Laundry</h2>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-white bg-primary mb-3">
-                        <div class="card-header">Jumlah Pelanggan</div>
-                        {{-- <div class="card-body">
-                            <h5 class="card-title">{{ $data['jumlah_pelanggan'] }}</h5>
-                        </div> --}}
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-white bg-success mb-3">
-                        <div class="card-header">Total Penghasilan</div>
-                        {{-- <div class="card-body">
-                            <h5 class="card-title">Rp. {{ number_format($data['penghasilan_tahun'], 0, ',', '.') }}</h5>
-                        </div> --}}
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-white bg-warning mb-3">
-                        <div class="card-header">Penghasilan Bulan</div>
-                        {{-- <div class="card-body">
-                            <h5 class="card-title">Rp. {{ number_format($data['penghasilan_bulan'], 0, ',', '.') }}</h5>
-                        </div> --}}
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card text-white bg-danger mb-3">
-                        <div class="card-header">Penghasilan Minggu</div>
-                        {{-- <div class="card-body">
-                            <h5 class="card-title">Rp. {{ number_format($data['penghasilan_minggu'], 0, ',', '.') }}</h5>
-                        </div> --}}
-                    </div>
-                </div>
+
+
+    <table class="table table-striped">
+        <div class="row mt-0" >
+            <div class="bg-primary-subtle">
+                <h2 class="mt-5 text-top">Data Pelanggan</h2>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nama Pelanggan</th>
+            <th scope="col">Alamat Pelanggan</th>
+            <th scope="col">No Telpon</th>
+            <th scope="col">Jenis Kelamin</th>
+            <th scope="col">Action</th>
+
+            <div class="mt-2 "><span class="float-end"><a href="/formp" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
+                
+                {{-- <span class="float-end"><a class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span> --}}
             </div>
-        </main>
-    </div>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
 
-    <script src="{{ asset('/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('/js/bootstrap.bundle.js') }}"></script>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+
+
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+
+
+      <script src="{{ asset('/js/bootstrap.js') }}"></script>
+      <script src="{{ asset('/js/bootstrap.bundle.js') }}"></script>
 
 </body>
 </html>
