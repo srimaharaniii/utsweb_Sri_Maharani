@@ -21,6 +21,18 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/menu', function () {
+    return view('menu');
+});
+
 Route::get('/pelanggan', function () {
     return view('pelanggan');
+});
+
+Route::get('/formp', function () {
+    return view('formp');
+});
+
+Route::get('/penyerahan', function () {
+    return view('penyerahan');
 });
