@@ -27,7 +27,7 @@
             </a>
         </li>
             <li class="nav-item">
-                <a href="#" class="nav-link text-dark">
+                <a href="{{ url('/harga') }}" class="nav-link text-dark">
                     <img src="{{ asset ('/image/price.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Harga Satuan
                 </a>
             </li>
