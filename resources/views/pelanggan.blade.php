@@ -64,7 +64,7 @@
             <th scope="col">Action</th>
 
             <div class="mt-2 "><span class="float-end"><a href="/formp" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
-                
+
                 {{-- <span class="float-end"><a class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span> --}}
             </div>
         </tr>
@@ -105,8 +105,72 @@
                 <button type="button" class="btn btn-info">edit</button>
                 <button type="button" class="btn btn-danger">Hapus</button>
             </td>
-
-
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Sri Maharani</td>
+            <td>Lampaseh</td>
+            <td>084455667788</td>
+            <td>Perempuan</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
           </tr>
         </tbody>
       </table>
