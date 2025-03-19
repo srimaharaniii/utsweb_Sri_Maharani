@@ -24,7 +24,7 @@
             </li>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link text-dark">
+            <a href="{{ url('/menu') }}" class="nav-link text-dark">
                 <img src="{{ asset ('/image/home.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Menu
             </a>
         </li>
