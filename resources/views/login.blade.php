@@ -8,32 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="col-5 m-auto">
+
+    <div class="col-2 m-auto">
         <div class="row mt-5">
-            <div claSS="col-sm-6 mb-3 mb-sm-0">
-            <div class="card text-center">
-
-                <div class="card-header bg-success-subtle"> login</div>
-                <div>
-                    <div class="card-body bg-dark-subtle">
-                        <div class="form-floating mb-4 row mt-3">
-
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <label for="exampleInputEmail1">Email address</label>
-
-                        </div>
-                        <div class="form-floating mb-4 row mt-3">
-
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <label for="exampleInputEmail1">Password</label>
-                        </div>
-                    </div>
-                    <a href="#" class="btn btn-primary">Login</a>
-                </div>
-            </div>
-            </div>
+    <div class="card text-center mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"> LOGIN </h5>
+          <div class="form-floating mb-4 row mt-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
         </div>
+        <div class="form-floating mb-4 row mt-3">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+
+          <a href="/menu" class="btn btn-primary"> login </a>
+        </div>
+      </div>
     </div>
+</div>
 
 
     <script src="{{ asset('/js/bootstrap.js') }}"></script>
