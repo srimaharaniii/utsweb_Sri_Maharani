@@ -36,3 +36,7 @@ Route::get('/formp', function () {
 Route::get('/penyerahan', function () {
     return view('penyerahan');
 });
+
+Route::get('/formpenyerahan', function () {
+    return view('formpenyerahan');
+});
