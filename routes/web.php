@@ -40,3 +40,15 @@ Route::get('/penyerahan', function () {
 Route::get('/formpenyerahan', function () {
     return view('formpenyerahan');
 });
+
+Route::get('/pembayaran', function () {
+    return view('pembayaran');
+});
+
+Route::get('/struk', function () {
+    return view('struk');
+});
+
+Route::get('/harga', function () {
+    return view('harga');
+});
