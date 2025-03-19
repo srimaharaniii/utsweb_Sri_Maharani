@@ -9,13 +9,13 @@
 </head>
 <body>
 
-    <div class="col-5  mt-0 ">
+    <div class="col-5  mt-0">
         <div class="row">
-            <div claSS="col-sm-6 mb-3 mb-sm-0">
+            <div claSS="col-sm-6 mb-3 mb-sm-0 ">
 
     <div class="d-flex flex-column p-3 bg-primary-subtle" style="width: 220px; height: 100vh;">
         <ul class="nav nav-pills flex-column">
-            <li class="nav-item d-flex justify-content-center">
+            <li class="nav-item d-flex justify-content-center ">
                 <a href="#" class="nav-link text-dark">
                     <img src="{{ asset ('/image/profil.png')}}" class="img-thumbnail img-fluid" style="width: 100px; height: 100px;" alt="">
                 </a>
@@ -40,9 +40,9 @@
                     <img src="{{ asset ('/image/penyerahan.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Penyerahan
                 </a>
             </li>
+            <button class="btn btn-light mt-4">Log out</button>
 
         </ul>
-        <button class="btn btn-light mt-4">Log out</button>
     </div>
 
     <div class="container position-absolute top-0 end-0">
@@ -62,11 +62,12 @@
             <th scope="col">Tgl Selesai</th>
             <th scope="col">Tgl Pengambilan</th>
             <th scope="col">jenis</th>
-            <th scope="col">Berat</th>
+            <th scope="col">Ukuran</th>
+            <th scope="col">Harga</th>
             <th scope="col">Action</th>
 
             <div class="mt-2 ">
-                <span class="float-end"><a href="/formp" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
+                <span class="float-end"><a href="/formpenyerahan" class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span>
                 {{-- <span class="float-end"><a class="btn btn-primary"><i class="fa-solid fa-square-plus"></i>Tambah Data </a></span> --}}
             </div>
         </tr>
@@ -75,40 +76,128 @@
           <tr>
             <th scope="row">1</th>
             <td>Sri Maharani</td>
-            <td>Lampaseh</td>
-            <td>084455667788</td>
-            <td>Perempuan</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
             <td>
                 <button type="button" class="btn btn-info">edit</button>
                 <button type="button" class="btn btn-danger">Hapus</button>
             </td>
-
-
           </tr>
           <tr>
-            <th scope="row">2</th>
+            <th scope="row">1</th>
             <td>Sri Maharani</td>
-            <td>Lampaseh</td>
-            <td>084455667788</td>
-            <td>Perempuan</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
             <td>
                 <button type="button" class="btn btn-info">edit</button>
                 <button type="button" class="btn btn-danger">Hapus</button>
             </td>
-
           </tr>
           <tr>
-            <th scope="row">3</th>
+            <th scope="row">1</th>
             <td>Sri Maharani</td>
-            <td>Lampaseh</td>
-            <td>084455667788</td>
-            <td>Perempuan</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
             <td>
                 <button type="button" class="btn btn-info">edit</button>
                 <button type="button" class="btn btn-danger">Hapus</button>
             </td>
-
-
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">1</th>
+            <td>Sri Maharani</td>
+            <td>22/12/2024</td>
+            <td>25/12/2024</td>
+            <td>27/12/2024</td>
+            <td>Cuci Komplit</td>
+            <td>1 kg</td>
+            <td>20.000</td>
+            <td>
+                <button type="button" class="btn btn-info">edit</button>
+                <button type="button" class="btn btn-danger">Hapus</button>
+            </td>
           </tr>
         </tbody>
       </table>
