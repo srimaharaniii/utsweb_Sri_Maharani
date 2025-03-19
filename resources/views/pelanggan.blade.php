@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/all.css') }}">
+
     <title>Pelanggan</title>
 </head>
 <body>
@@ -77,8 +79,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
 
 
@@ -90,8 +92,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
 
           </tr>
@@ -102,8 +104,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
           <tr>
@@ -113,8 +115,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
           <tr>
@@ -124,8 +126,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
           <tr>
@@ -135,8 +137,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
           <tr>
@@ -146,8 +148,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
           <tr>
@@ -157,8 +159,8 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
           <tr>
@@ -168,18 +170,17 @@
             <td>084455667788</td>
             <td>Perempuan</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
             </td>
           </tr>
         </tbody>
       </table>
     </main>
 
-
-
       <script src="{{ asset('/js/bootstrap.js') }}"></script>
       <script src="{{ asset('/js/bootstrap.bundle.js') }}"></script>
+      <script src="{{ asset('/js/all.js') }}"></script>
 
 </body>
 </html>
