@@ -57,6 +57,12 @@
             <input type="text" id="disabledTextInput" class="form-control" placeholder="Harga">
           </div>
           <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Status</label>
+            <br>
+            <input type="radio" name="sb" value="L"class="" id="exampleInputPassword1"> Sudah Bayar
+            <input type="radio" name="bb" value="P"class="" id="exampleInputPassword1"> Belum Bayar
+        </div>
+          <div class="mb-3">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
               <label class="form-check-label" for="disabledFieldsetCheck">
