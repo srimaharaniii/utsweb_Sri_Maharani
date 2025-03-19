@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/all.css') }}">
+
     <title>Pelanggan</title>
 </head>
 <body>
@@ -64,6 +66,7 @@
             <th scope="col">jenis</th>
             <th scope="col">Ukuran</th>
             <th scope="col">Harga</th>
+            <th scope="col">Status</th>
             <th scope="col">Action</th>
 
             <div class="mt-2 ">
@@ -82,9 +85,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Sudah Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -96,9 +101,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Sudan Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -110,9 +117,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Sudah Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -124,9 +133,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Belum Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -138,9 +149,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Belum Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -152,9 +165,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Belum Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -166,9 +181,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Belum Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -180,9 +197,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Belum Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
           <tr>
@@ -194,9 +213,11 @@
             <td>Cuci Komplit</td>
             <td>1 kg</td>
             <td>20.000</td>
+            <td>Belum Bayar</td>
             <td>
-                <button type="button" class="btn btn-info">edit</button>
-                <button type="button" class="btn btn-danger">Hapus</button>
+                <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i></button>
+                <button type="button" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
+                <button type="button" class="btn btn-success"> <a class="nav-link" href="/pembayaran">Bayar</a></button>
             </td>
           </tr>
         </tbody>
@@ -207,6 +228,8 @@
 
       <script src="{{ asset('/js/bootstrap.js') }}"></script>
       <script src="{{ asset('/js/bootstrap.bundle.js') }}"></script>
+      <script src="{{ asset('/js/all.js') }}"></script>
+
 
 </body>
 </html>
