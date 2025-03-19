@@ -58,7 +58,7 @@
         <p>Total Pembayaran  : Rp20.000</p>
         <p>Total Uang Bayar  : Rp.50.000</p>
         <p>Kembalian         : Rp.30.000</p>
-        <button type="button" class="btn btn-primary"> <a class="nav-link" href="/menu">Bayar</a></button>
+        <button type="button" class="btn btn-primary"> <a class="nav-link" href="/menu">Succes</a></button>
     </div>
 
     <script src="{{ asset('/js/bootstrap.js') }}"></script>
