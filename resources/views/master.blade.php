@@ -19,12 +19,13 @@
             <li class="nav-item d-flex justify-content-center">
                 <a href="#" class="nav-link text-dark">
                     <img src="{{ asset ('/image/profil.png')}}" class="img-thumbnail img-fluid" style="width: 100px; height: 100px;" alt="">
+                    <br>Sri Maharani</br>
                 </a>
             </li>
         </li>
         <li class="nav-item">
             <a href="#" class="nav-link text-dark">
-                <img src="{{ asset ('/image/price.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Menu
+                <img src="{{ asset ('/image/home.png')}}" class="img-thumbnail img-fluid" style="width: 40px; height: 40px;" alt=""> Menu
             </a>
         </li>
             <li class="nav-item">
